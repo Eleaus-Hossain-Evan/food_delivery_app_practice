@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(
       const Duration(milliseconds: 450),
       () {
-        Navigation.push(
+        Navigation.pushReplacement(
           context,
           customPageTransition: PageTransition(
             child: const HomeScreen(),
